@@ -1,0 +1,36 @@
+// @import "base/index";
+@import "./utilities/variables";
+// @import "./utilities/mixin";
+
+
+.text{
+    &-primary{
+        color: $color-cyan !important;
+    }
+    &-warning{
+        color: $color-orange;
+    }
+    %-danger{
+        color: $color-red;
+    }
+}
+// .app-card{
+//     @extend %card-styles
+// }
+// %style-pattern{
+//     background: blue;
+//     padding: 20px;
+//     width: 200px;
+// }
+
+// %card-styles{
+//     .app{
+//         &-card{
+//             @extend %style-pattern;
+//             &-img{
+//                 width: 100px;
+//                 object-fit: 10px;
+//             }
+//         }
+//     }
+// }
